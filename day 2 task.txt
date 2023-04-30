@@ -1,0 +1,26 @@
+write a blog on the difference between doucment and window object?
+
+ANSWER :-
+ Window object −
+
+  Top of the hierarchy.
+  It is the outmost element of the object hierarchy
+  examples-
+  window.open() - open a new window
+  window.close() - close the current window
+  window.moveTo() - move the current window
+  window.resizeTo() - resize the current window
+
+
+Document object − 
+
+  Each HTML document that gets loaded into a window becomes a document object. 
+  The document contains the contents of the page.
+  Each HTML document that gets loaded into a window becomes a document object. The document contains the contents of the page. 
+  Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page
+  examples-
+  document.createElement(element)	Create an HTML element
+  document.removeChild(element)	Remove an HTML element
+  document.appendChild(element)	Add an HTML element
+  document.replaceChild(new, old)	Replace an HTML element
+  document.write(text)	Write into the HTML output stream
